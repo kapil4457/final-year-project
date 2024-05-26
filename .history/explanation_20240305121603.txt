@@ -1,0 +1,9 @@
+There are mainly 3 steps involoved here : 
+- Calculate Dark Channel Prior value
+- Calculate Transmission map
+- Calculate Guided Filter Transmission map
+- Restore the image
+
+
+1) Calculate Dark Channel Prior
+- Initially we take radius of 7 pixels.Now we calculate the minimum  pixel value across the third axis and let's call it say "tmp".This operation  calculates the minimum value for each pixel across all color channels, resulting in a grayscale image.Now we traverse the whole image , pixel by pixel , and for each pixel find the smallest value

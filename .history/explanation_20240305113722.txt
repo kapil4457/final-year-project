@@ -1,0 +1,5 @@
+There are mainly 3 steps involoved here : 
+- Calculate Dark Channel Prior value
+- Calculate Transmission map
+- Calculate Guided Filter Transmission map
+- Restore the image

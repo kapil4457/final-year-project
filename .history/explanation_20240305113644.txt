@@ -1,0 +1,2 @@
+There are mainly 4 steps involoved here : 
+- Calculate Dark Channel Prior value
